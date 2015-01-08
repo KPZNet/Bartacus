@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		644B888B1927FB9900B779C2 /* DepartureStationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 644B888A1927FB9900B779C2 /* DepartureStationCell.xib */; };
+		644B888E1927FE9700B779C2 /* KPXDepartureStationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 644B888D1927FE9700B779C2 /* KPXDepartureStationCell.m */; };
+		644B8891192861A800B779C2 /* BartBikeNo.png in Resources */ = {isa = PBXBuildFile; fileRef = 644B888F192861A800B779C2 /* BartBikeNo.png */; };
+		644B8892192861A800B779C2 /* BartBikeYes.png in Resources */ = {isa = PBXBuildFile; fileRef = 644B8890192861A800B779C2 /* BartBikeYes.png */; };
+		64AFE2CF1946216400AB16B5 /* KPXRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AFE2CE1946216400AB16B5 /* KPXRouteViewController.m */; };
+		64E222701943BB6C005489FB /* KPXStorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E2226F1943BB6C005489FB /* KPXStorageManager.m */; };
+		714923A1192DAC8600D7B97B /* KPXRouteStationSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714923A0192DAC8600D7B97B /* KPXRouteStationSelectTableViewController.m */; };
+		7167BEF8191D85CE0085E024 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7167BEF7191D85CE0085E024 /* Foundation.framework */; };
+		7167BEFA191D85CE0085E024 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7167BEF9191D85CE0085E024 /* CoreGraphics.framework */; };
+		7167BEFC191D85CE0085E024 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7167BEFB191D85CE0085E024 /* UIKit.framework */; };
+		7167BF02191D85CE0085E024 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7167BF00191D85CE0085E024 /* InfoPlist.strings */; };
+		7167BF04191D85CE0085E024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7167BF03191D85CE0085E024 /* main.m */; };
+		7167BF08191D85CE0085E024 /* KPXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7167BF07191D85CE0085E024 /* KPXAppDelegate.m */; };
+		7167BF0B191D85CE0085E024 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7167BF09191D85CE0085E024 /* Main_iPhone.storyboard */; };
+		7167BF0E191D85CE0085E024 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7167BF0C191D85CE0085E024 /* Main_iPad.storyboard */; };
+		7167BF16191D85CE0085E024 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7167BF15191D85CE0085E024 /* Images.xcassets */; };
+		7167BF1D191D85CE0085E024 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7167BF1C191D85CE0085E024 /* XCTest.framework */; };
+		7167BF1E191D85CE0085E024 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7167BEF7191D85CE0085E024 /* Foundation.framework */; };
+		7167BF1F191D85CE0085E024 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7167BEFB191D85CE0085E024 /* UIKit.framework */; };
+		7167BF27191D85CE0085E024 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7167BF25191D85CE0085E024 /* InfoPlist.strings */; };
+		7167BF29191D85CE0085E024 /* BartacusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7167BF28191D85CE0085E024 /* BartacusTests.m */; };
+		7167BF3A191DDE990085E024 /* KPXStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7167BF39191DDE990085E024 /* KPXStation.m */; };
+		716E5278191FDC600031D71A /* KPXDestination.m in Sources */ = {isa = PBXBuildFile; fileRef = 716E5277191FDC600031D71A /* KPXDestination.m */; };
+		717EB7341931A9EB0012312D /* KPXRouteFair.m in Sources */ = {isa = PBXBuildFile; fileRef = 717EB7331931A9EB0012312D /* KPXRouteFair.m */; };
+		7196FDE0191F3AE30028C66C /* KPXStationDepartures.m in Sources */ = {isa = PBXBuildFile; fileRef = 7196FDDF191F3AE30028C66C /* KPXStationDepartures.m */; };
+		719A58BF191E9BAC001D435C /* SMXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 719A58BE191E9BAC001D435C /* SMXMLDocument.m */; };
+		71BBE602191EAE3000ABE043 /* KPXStationList.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BBE601191EAE3000ABE043 /* KPXStationList.m */; };
+		71BBE606191EB18400ABE043 /* BARTStations.xml in Resources */ = {isa = PBXBuildFile; fileRef = 71BBE605191EB18400ABE043 /* BARTStations.xml */; };
+		71C459F9192DC708004E9F1A /* BartLabel1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71C459F5192DC708004E9F1A /* BartLabel1.jpg */; };
+		71C459FA192DC708004E9F1A /* BartLabel2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71C459F6192DC708004E9F1A /* BartLabel2.jpg */; };
+		71C459FB192DC708004E9F1A /* BartMap1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71C459F7192DC708004E9F1A /* BartMap1.jpg */; };
+		71C459FC192DC708004E9F1A /* BartTrain1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71C459F8192DC708004E9F1A /* BartTrain1.jpg */; };
+		71DF3A4F1920223400B023C0 /* KPXStationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DF3A4E1920223400B023C0 /* KPXStationTableViewController.m */; };
+		71DF3A5219207C8600B023C0 /* KPXStationDeparturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DF3A5119207C8600B023C0 /* KPXStationDeparturesViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7167BF20191D85CE0085E024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7167BEEC191D85CE0085E024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7167BEF3191D85CE0085E024;
+			remoteInfo = Bartacus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		644B888A1927FB9900B779C2 /* DepartureStationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DepartureStationCell.xib; sourceTree = "<group>"; };
+		644B888C1927FE9700B779C2 /* KPXDepartureStationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPXDepartureStationCell.h; sourceTree = "<group>"; };
+		644B888D1927FE9700B779C2 /* KPXDepartureStationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPXDepartureStationCell.m; sourceTree = "<group>"; };
+		644B888F192861A800B779C2 /* BartBikeNo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BartBikeNo.png; sourceTree = "<group>"; };
+		644B8890192861A800B779C2 /* BartBikeYes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BartBikeYes.png; sourceTree = "<group>"; };
+		64AFE2CD1946216400AB16B5 /* KPXRouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPXRouteViewController.h; sourceTree = "<group>"; };
+		64AFE2CE1946216400AB16B5 /* KPXRouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPXRouteViewController.m; sourceTree = "<group>"; };
+		64E2226E1943BB6C005489FB /* KPXStorageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPXStorageManager.h; sourceTree = "<group>"; };
+		64E2226F1943BB6C005489FB /* KPXStorageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPXStorageManager.m; sourceTree = "<group>"; };
+		7149239F192DAC8600D7B97B /* KPXRouteStationSelectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPXRouteStationSelectTableViewController.h; sourceTree = "<group>"; };
+		714923A0192DAC8600D7B97B /* KPXRouteStationSelectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPXRouteStationSelectTableViewController.m; sourceTree = "<group>"; };
+		7167BEF4191D85CE0085E024 /* Bartacus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bartacus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7167BEF7191D85CE0085E024 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7167BEF9191D85CE0085E024 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7167BEFB191D85CE0085E024 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7167BEFF191D85CE0085E024 /* Bartacus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bartacus-Info.plist"; sourceTree = "<group>"; };
+		7167BF01191D85CE0085E024 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7167BF03191D85CE0085E024 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7167BF05191D85CE0085E024 /* Bartacus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bartacus-Prefix.pch"; sourceTree = "<group>"; };
+		7167BF06191D85CE0085E024 /* KPXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPXAppDelegate.h; sourceTree = "<group>"; };
+		7167BF07191D85CE0085E024 /* KPXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPXAppDelegate.m; sourceTree = "<group>"; };
+		7167BF0A191D85CE0085E024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		7167BF0D191D85CE0085E024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		7167BF15191D85CE0085E024 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7167BF1B191D85CE0085E024 /* BartacusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BartacusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7167BF1C191D85CE0085E024 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7167BF24191D85CE0085E024 /* BartacusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BartacusTests-Info.plist"; sourceTree = "<group>"; };
+		7167BF26191D85CE0085E024 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7167BF28191D85CE0085E024 /* BartacusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BartacusTests.m; sourceTree = "<group>"; };
+		7167BF38191DDE990085E024 /* KPXStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPXStation.h; sourceTree = "<group>"; };
+		7167BF39191DDE990085E024 /* KPXStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPXStation.m; sourceTree = "<group>"; };
+		716E5276191FDC600031D71A /* KPXDestination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPXDestination.h; sourceTree = "<group>"; };
+		716E5277191FDC600031D71A /* KPXDestination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPXDestination.m; sourceTree = "<group>"; };
+		717EB7321931A9EB0012312D /* KPXRouteFair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPXRouteFair.h; sourceTree = "<group>"; };
+		717EB7331931A9EB0012312D /* KPXRouteFair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPXRouteFair.m; sourceTree = "<group>"; };
+		7196FDDE191F3AE30028C66C /* KPXStationDepartures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPXStationDepartures.h; sourceTree = "<group>"; };
+		7196FDDF191F3AE30028C66C /* KPXStationDepartures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPXStationDepartures.m; sourceTree = "<group>"; };
+		719A58BD191E9BAC001D435C /* SMXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMXMLDocument.h; sourceTree = "<group>"; };
+		719A58BE191E9BAC001D435C /* SMXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMXMLDocument.m; sourceTree = "<group>"; };
+		71BBE600191EAE3000ABE043 /* KPXStationList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPXStationList.h; sourceTree = "<group>"; };
+		71BBE601191EAE3000ABE043 /* KPXStationList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPXStationList.m; sourceTree = "<group>"; };
+		71BBE605191EB18400ABE043 /* BARTStations.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BARTStations.xml; sourceTree = "<group>"; };
+		71C459F5192DC708004E9F1A /* BartLabel1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BartLabel1.jpg; path = Images/BartLabel1.jpg; sourceTree = "<group>"; };
+		71C459F6192DC708004E9F1A /* BartLabel2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BartLabel2.jpg; path = Images/BartLabel2.jpg; sourceTree = "<group>"; };
+		71C459F7192DC708004E9F1A /* BartMap1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BartMap1.jpg; path = Images/BartMap1.jpg; sourceTree = "<group>"; };
+		71C459F8192DC708004E9F1A /* BartTrain1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BartTrain1.jpg; path = Images/BartTrain1.jpg; sourceTree = "<group>"; };
+		71DF3A4D1920223400B023C0 /* KPXStationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPXStationTableViewController.h; sourceTree = "<group>"; };
+		71DF3A4E1920223400B023C0 /* KPXStationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPXStationTableViewController.m; sourceTree = "<group>"; };
+		71DF3A5019207C8600B023C0 /* KPXStationDeparturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPXStationDeparturesViewController.h; sourceTree = "<group>"; };
+		71DF3A5119207C8600B023C0 /* KPXStationDeparturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPXStationDeparturesViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7167BEF1191D85CE0085E024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7167BEFA191D85CE0085E024 /* CoreGraphics.framework in Frameworks */,
+				7167BEFC191D85CE0085E024 /* UIKit.framework in Frameworks */,
+				7167BEF8191D85CE0085E024 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7167BF18191D85CE0085E024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7167BF1D191D85CE0085E024 /* XCTest.framework in Frameworks */,
+				7167BF1F191D85CE0085E024 /* UIKit.framework in Frameworks */,
+				7167BF1E191D85CE0085E024 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64DEB63E1929169B00035DD8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				71C459F5192DC708004E9F1A /* BartLabel1.jpg */,
+				71C459F6192DC708004E9F1A /* BartLabel2.jpg */,
+				71C459F7192DC708004E9F1A /* BartMap1.jpg */,
+				71C459F8192DC708004E9F1A /* BartTrain1.jpg */,
+				644B888F192861A800B779C2 /* BartBikeNo.png */,
+				644B8890192861A800B779C2 /* BartBikeYes.png */,
+				644B888A1927FB9900B779C2 /* DepartureStationCell.xib */,
+				7167BF09191D85CE0085E024 /* Main_iPhone.storyboard */,
+				7167BF0C191D85CE0085E024 /* Main_iPad.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		7167BEEB191D85CE0085E024 = {
+			isa = PBXGroup;
+			children = (
+				7167BEFD191D85CE0085E024 /* Bartacus */,
+				7167BF22191D85CE0085E024 /* BartacusTests */,
+				7167BEF6191D85CE0085E024 /* Frameworks */,
+				7167BEF5191D85CE0085E024 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7167BEF5191D85CE0085E024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7167BEF4191D85CE0085E024 /* Bartacus.app */,
+				7167BF1B191D85CE0085E024 /* BartacusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7167BEF6191D85CE0085E024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7167BEF7191D85CE0085E024 /* Foundation.framework */,
+				7167BEF9191D85CE0085E024 /* CoreGraphics.framework */,
+				7167BEFB191D85CE0085E024 /* UIKit.framework */,
+				7167BF1C191D85CE0085E024 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7167BEFD191D85CE0085E024 /* Bartacus */ = {
+			isa = PBXGroup;
+			children = (
+				64DEB63E1929169B00035DD8 /* UI */,
+				719A58C0191E9BB3001D435C /* XMLParsers */,
+				7167BF06191D85CE0085E024 /* KPXAppDelegate.h */,
+				7167BF07191D85CE0085E024 /* KPXAppDelegate.m */,
+				64E2226E1943BB6C005489FB /* KPXStorageManager.h */,
+				64E2226F1943BB6C005489FB /* KPXStorageManager.m */,
+				7167BF15191D85CE0085E024 /* Images.xcassets */,
+				7167BEFE191D85CE0085E024 /* Supporting Files */,
+				71DF3A4D1920223400B023C0 /* KPXStationTableViewController.h */,
+				71DF3A4E1920223400B023C0 /* KPXStationTableViewController.m */,
+				64AFE2CD1946216400AB16B5 /* KPXRouteViewController.h */,
+				64AFE2CE1946216400AB16B5 /* KPXRouteViewController.m */,
+				71DF3A5019207C8600B023C0 /* KPXStationDeparturesViewController.h */,
+				71DF3A5119207C8600B023C0 /* KPXStationDeparturesViewController.m */,
+				644B888C1927FE9700B779C2 /* KPXDepartureStationCell.h */,
+				644B888D1927FE9700B779C2 /* KPXDepartureStationCell.m */,
+				7149239F192DAC8600D7B97B /* KPXRouteStationSelectTableViewController.h */,
+				714923A0192DAC8600D7B97B /* KPXRouteStationSelectTableViewController.m */,
+			);
+			path = Bartacus;
+			sourceTree = "<group>";
+		};
+		7167BEFE191D85CE0085E024 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7167BEFF191D85CE0085E024 /* Bartacus-Info.plist */,
+				7167BF00191D85CE0085E024 /* InfoPlist.strings */,
+				7167BF03191D85CE0085E024 /* main.m */,
+				7167BF05191D85CE0085E024 /* Bartacus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7167BF22191D85CE0085E024 /* BartacusTests */ = {
+			isa = PBXGroup;
+			children = (
+				7167BF28191D85CE0085E024 /* BartacusTests.m */,
+				7167BF23191D85CE0085E024 /* Supporting Files */,
+			);
+			path = BartacusTests;
+			sourceTree = "<group>";
+		};
+		7167BF23191D85CE0085E024 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7167BF24191D85CE0085E024 /* BartacusTests-Info.plist */,
+				7167BF25191D85CE0085E024 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		719A58C0191E9BB3001D435C /* XMLParsers */ = {
+			isa = PBXGroup;
+			children = (
+				7167BF38191DDE990085E024 /* KPXStation.h */,
+				7167BF39191DDE990085E024 /* KPXStation.m */,
+				71BBE605191EB18400ABE043 /* BARTStations.xml */,
+				719A58BD191E9BAC001D435C /* SMXMLDocument.h */,
+				719A58BE191E9BAC001D435C /* SMXMLDocument.m */,
+				71BBE600191EAE3000ABE043 /* KPXStationList.h */,
+				71BBE601191EAE3000ABE043 /* KPXStationList.m */,
+				7196FDDE191F3AE30028C66C /* KPXStationDepartures.h */,
+				7196FDDF191F3AE30028C66C /* KPXStationDepartures.m */,
+				716E5276191FDC600031D71A /* KPXDestination.h */,
+				716E5277191FDC600031D71A /* KPXDestination.m */,
+				717EB7321931A9EB0012312D /* KPXRouteFair.h */,
+				717EB7331931A9EB0012312D /* KPXRouteFair.m */,
+			);
+			name = XMLParsers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7167BEF3191D85CE0085E024 /* Bartacus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7167BF2C191D85CE0085E024 /* Build configuration list for PBXNativeTarget "Bartacus" */;
+			buildPhases = (
+				7167BEF0191D85CE0085E024 /* Sources */,
+				7167BEF1191D85CE0085E024 /* Frameworks */,
+				7167BEF2191D85CE0085E024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bartacus;
+			productName = Bartacus;
+			productReference = 7167BEF4191D85CE0085E024 /* Bartacus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7167BF1A191D85CE0085E024 /* BartacusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7167BF2F191D85CE0085E024 /* Build configuration list for PBXNativeTarget "BartacusTests" */;
+			buildPhases = (
+				7167BF17191D85CE0085E024 /* Sources */,
+				7167BF18191D85CE0085E024 /* Frameworks */,
+				7167BF19191D85CE0085E024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7167BF21191D85CE0085E024 /* PBXTargetDependency */,
+			);
+			name = BartacusTests;
+			productName = BartacusTests;
+			productReference = 7167BF1B191D85CE0085E024 /* BartacusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7167BEEC191D85CE0085E024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KPX;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ken Ceglia";
+				TargetAttributes = {
+					7167BF1A191D85CE0085E024 = {
+						TestTargetID = 7167BEF3191D85CE0085E024;
+					};
+				};
+			};
+			buildConfigurationList = 7167BEEF191D85CE0085E024 /* Build configuration list for PBXProject "Bartacus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7167BEEB191D85CE0085E024;
+			productRefGroup = 7167BEF5191D85CE0085E024 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7167BEF3191D85CE0085E024 /* Bartacus */,
+				7167BF1A191D85CE0085E024 /* BartacusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7167BEF2191D85CE0085E024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644B8892192861A800B779C2 /* BartBikeYes.png in Resources */,
+				71C459FC192DC708004E9F1A /* BartTrain1.jpg in Resources */,
+				71BBE606191EB18400ABE043 /* BARTStations.xml in Resources */,
+				644B8891192861A800B779C2 /* BartBikeNo.png in Resources */,
+				71C459F9192DC708004E9F1A /* BartLabel1.jpg in Resources */,
+				71C459FB192DC708004E9F1A /* BartMap1.jpg in Resources */,
+				7167BF0E191D85CE0085E024 /* Main_iPad.storyboard in Resources */,
+				7167BF16191D85CE0085E024 /* Images.xcassets in Resources */,
+				7167BF0B191D85CE0085E024 /* Main_iPhone.storyboard in Resources */,
+				7167BF02191D85CE0085E024 /* InfoPlist.strings in Resources */,
+				71C459FA192DC708004E9F1A /* BartLabel2.jpg in Resources */,
+				644B888B1927FB9900B779C2 /* DepartureStationCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7167BF19191D85CE0085E024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7167BF27191D85CE0085E024 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7167BEF0191D85CE0085E024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644B888E1927FE9700B779C2 /* KPXDepartureStationCell.m in Sources */,
+				7167BF08191D85CE0085E024 /* KPXAppDelegate.m in Sources */,
+				64E222701943BB6C005489FB /* KPXStorageManager.m in Sources */,
+				7167BF3A191DDE990085E024 /* KPXStation.m in Sources */,
+				71DF3A4F1920223400B023C0 /* KPXStationTableViewController.m in Sources */,
+				717EB7341931A9EB0012312D /* KPXRouteFair.m in Sources */,
+				714923A1192DAC8600D7B97B /* KPXRouteStationSelectTableViewController.m in Sources */,
+				71BBE602191EAE3000ABE043 /* KPXStationList.m in Sources */,
+				716E5278191FDC600031D71A /* KPXDestination.m in Sources */,
+				7196FDE0191F3AE30028C66C /* KPXStationDepartures.m in Sources */,
+				7167BF04191D85CE0085E024 /* main.m in Sources */,
+				719A58BF191E9BAC001D435C /* SMXMLDocument.m in Sources */,
+				71DF3A5219207C8600B023C0 /* KPXStationDeparturesViewController.m in Sources */,
+				64AFE2CF1946216400AB16B5 /* KPXRouteViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7167BF17191D85CE0085E024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7167BF29191D85CE0085E024 /* BartacusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7167BF21191D85CE0085E024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7167BEF3191D85CE0085E024 /* Bartacus */;
+			targetProxy = 7167BF20191D85CE0085E024 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7167BF00191D85CE0085E024 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7167BF01191D85CE0085E024 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7167BF09191D85CE0085E024 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7167BF0A191D85CE0085E024 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7167BF0C191D85CE0085E024 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7167BF0D191D85CE0085E024 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		7167BF25191D85CE0085E024 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7167BF26191D85CE0085E024 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7167BF2A191D85CE0085E024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7167BF2B191D85CE0085E024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7167BF2D191D85CE0085E024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bartacus/Bartacus-Prefix.pch";
+				INFOPLIST_FILE = "Bartacus/Bartacus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7167BF2E191D85CE0085E024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bartacus/Bartacus-Prefix.pch";
+				INFOPLIST_FILE = "Bartacus/Bartacus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7167BF30191D85CE0085E024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bartacus.app/Bartacus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bartacus/Bartacus-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BartacusTests/BartacusTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7167BF31191D85CE0085E024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bartacus.app/Bartacus";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bartacus/Bartacus-Prefix.pch";
+				INFOPLIST_FILE = "BartacusTests/BartacusTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7167BEEF191D85CE0085E024 /* Build configuration list for PBXProject "Bartacus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7167BF2A191D85CE0085E024 /* Debug */,
+				7167BF2B191D85CE0085E024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7167BF2C191D85CE0085E024 /* Build configuration list for PBXNativeTarget "Bartacus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7167BF2D191D85CE0085E024 /* Debug */,
+				7167BF2E191D85CE0085E024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7167BF2F191D85CE0085E024 /* Build configuration list for PBXNativeTarget "BartacusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7167BF30191D85CE0085E024 /* Debug */,
+				7167BF31191D85CE0085E024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7167BEEC191D85CE0085E024 /* Project object */;
+}

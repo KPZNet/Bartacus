@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>12E7526B-A889-450C-8F95-CC9350E781B2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>88DE19EF9060C39E7180477B2BCD06813A53D8AE</key>
+		<string>https://github.com/KPZNet/Bartacus.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>88DE19EF9060C39E7180477B2BCD06813A53D8AE</key>
+		<string>Bartacus/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/KPZNet/Bartacus.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>88DE19EF9060C39E7180477B2BCD06813A53D8AE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>88DE19EF9060C39E7180477B2BCD06813A53D8AE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Bartacus</string>
+		</dict>
+	</array>
+</dict>
+</plist>
